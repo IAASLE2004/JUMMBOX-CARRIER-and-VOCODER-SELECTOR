@@ -1,0 +1,175 @@
+/* Warna yang akan digunakan */
+:root {
+  --ungu-muda: #c480f0;
+  --ungu-soft: #dbb4f5;
+  --biru-gelap: #4b4e92;
+  --hitam-biru: #262f39;
+  --kuning-pucat: #fefed4;
+  --hitam: #000000;
+  --putih: #ffffff;
+}
+
+/* Styling Navbar */
+.navbar {
+  background-color: var(--biru-gelap);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.navbar .logo {
+  color: var(--kuning-pucat);
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Menu */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: var(--putih);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+  background-color: var(--ungu-muda);
+  color: var(--hitam);
+}
+
+/* Tombol login */
+.navbar .btn-login {
+  background-color: var(--ungu-soft);
+  color: var(--hitam);
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar .btn-login:hover {
+  background-color: var(--kuning-pucat);
+  color: var(--hitam-biru);
+}
+
+/* Daftar warna background */
+.bg-ungu-muda {
+  background-color: #c480f0;
+  color: #ffffff;
+}
+
+.bg-ungu-soft {
+  background-color: #dbb4f5;
+  color: #ffffff;
+}
+
+.bg-biru-gelap {
+  background-color: #4b4e92;
+  color: #ffffff;
+}
+
+.bg-hitam-biru {
+  background-color: #262f39;
+  color: #ffffff;
+}
+
+.bg-kuning-pucat {
+  background-color: #fefed4;
+  color: #000000;
+}
+
+.bg-hitam {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bg-putih {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+/* Box contoh */
+.box {
+  padding: 40px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* Style umum button */
+button {
+  padding: 10px 24px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; /* sudut melengkung */
+  cursor: pointer;
+  transition: 0.3s;
+
+  /* teks & isi tombol ke tengah */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Button sesuai warna */
+.btn-ungu-muda {
+  background-color: #c480f0;
+  color: #000000;
+}
+
+.btn-ungu-soft {
+  background-color: #dbb4f5;
+  color: #000000;
+}
+
+.btn-biru-gelap {
+  background-color: #4b4e92;
+  color: #ffffff;
+}
+
+.btn-hitam-biru {
+  background-color: #262f39;
+  color: #ffffff;
+}
+
+.btn-kuning-pucat {
+  background-color: #fefed4;
+  color: #000000;
+}
+
+.btn-hitam {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-putih {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+/* Hover efek */
+button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
